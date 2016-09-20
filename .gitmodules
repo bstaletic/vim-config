@@ -1,0 +1,39 @@
+[submodule "pack/alternate/opt/a.vim"]
+	path = pack/alternate/opt/a.vim
+	url = https://github.com/vim-scripts/a.vim
+[submodule "pack/brackets/start/autoclose"]
+	path = pack/brackets/start/autoclose
+	url = https://github.com/Townk/vim-autoclose
+[submodule "pack/brackets/start/surround"]
+	path = pack/brackets/start/surround
+	url = https://github.com/tpope/vim-surround
+[submodule "pack/gdb/opt/Conque-GDB"]
+	path = pack/gdb/opt/Conque-GDB
+	url = https://github.com/vim-scripts/Conque-gdb
+[submodule "pack/marks/start/signature"]
+	path = pack/marks/start/signature
+	url = https://github.com/kshenoy/vim-signature
+[submodule "pack/navigation/opt/taglist"]
+	path = pack/navigation/opt/taglist
+	url = https://github.com/vim-scripts/taglist.vim
+[submodule "pack/navigation/start/easymotion"]
+	path = pack/navigation/start/easymotion
+	url = https://github.com/easymotion/vim-easymotion
+[submodule "pack/navigation/start/gundo"]
+	path = pack/navigation/start/gundo
+	url = https://github.com/sjl/gundo.vim
+[submodule "pack/snipets/start/snippets"]
+	path = pack/snipets/start/snippets
+	url = https://github.com/honza/vim-snippets
+[submodule "pack/snipets/start/ultisnips"]
+	path = pack/snipets/start/ultisnips
+	url = https://github.com/SirVer/ultisnips
+[submodule "pack/tmux/start/tmux-navigator"]
+	path = pack/tmux/start/tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator
+[submodule "pack/ycm/opt/YCM-Generator"]
+	path = pack/ycm/opt/YCM-Generator
+	url = https://github.com/rdnetto/YCM-Generator
+[submodule "pack/ycm/opt/YouCompleteMe"]
+	path = pack/ycm/opt/YouCompleteMe
+	url = https://github.com/oblitum/YouCompleteMe
