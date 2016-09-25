@@ -83,22 +83,14 @@ set wildchar=<Tab>
 set wildmode=longest,full
 
 " Disable arrow keys when in normal mode
-nnoremap <up> <nop>
-nnoremap <down> <nop>
-nnoremap <left> <nop>
-nnoremap <right> <nop>
+"nnoremap <up> <nop>
+"nnoremap <down> <nop>
+"nnoremap <left> <nop>
+"nnoremap <right> <nop>
 
 " Gundo
 nnoremap <F6> :GundoToggle<CR>
 let g:gundo_return_on_revert=0
-
-
-" Visual block dragging
-vnoremap  <expr>  <left>      DVB_Drag('left')
-vnoremap  <expr>  <right>     DVB_Drag('right')
-vnoremap  <expr>  <down>      DVB_Drag('down')
-vnoremap  <expr>  <up>        DVB_Drag('up')
-vnoremap  <expr>  D           DVB_Duplicate()
 
 " Automatically remove trailing spaces just before writing the file
 aug notrspaces
