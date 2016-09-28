@@ -50,3 +50,11 @@
 	path = pack/ycm/opt/YouCompleteMe
 	url = https://github.com/oblitum/YouCompleteMe
 	branch = master
+[submodule "pack/git/start/fugitive"]
+	path = pack/git/start/fugitive
+	url = https://github.com/tpope/vim-fugitive
+	branch = master
+[submodule "pack/git/start/gitgutter"]
+	path = pack/git/start/gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+	branch = master

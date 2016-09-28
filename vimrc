@@ -92,6 +92,9 @@ set wildmode=longest,full
 nnoremap <F6> :GundoToggle<CR>
 let g:gundo_return_on_revert=0
 
+" Gitgutter
+let g:gitgutter_enabled = 0
+
 " Automatically remove trailing spaces just before writing the file
 aug notrspaces
 	au!
