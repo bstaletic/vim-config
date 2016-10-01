@@ -58,3 +58,7 @@
 	path = pack/git/start/gitgutter
 	url = https://github.com/airblade/vim-gitgutter
 	branch = master
+[submodule "pack/async/start/asyncrun"]
+	path = pack/async/start/asyncrun
+	url = https://github.com/skywind3000/asyncrun.vim
+	branch = master
