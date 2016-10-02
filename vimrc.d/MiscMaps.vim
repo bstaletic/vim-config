@@ -25,3 +25,6 @@ nnoremap # #n
 "nnoremap <up> <nop>
 "nnoremap <down> <nop>
 "nnoremap <left> <nop>
+
+"Paste mapping
+set pastetoggle=<F3>
