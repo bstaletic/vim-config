@@ -27,3 +27,6 @@ call matchadd('ColorColumn', '\%81v', 100) "set column nr
 " Split windows
 set splitright
 set splitbelow
+
+" Folding method
+set foldmethod=syntax

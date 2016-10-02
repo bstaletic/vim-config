@@ -26,5 +26,8 @@ nnoremap # #n
 "nnoremap <down> <nop>
 "nnoremap <left> <nop>
 
-"Paste mapping
+" Paste mapping
 set pastetoggle=<F3>
+
+" Make space open and close folds
+nnoremap <space> za
