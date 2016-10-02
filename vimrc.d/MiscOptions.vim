@@ -1,15 +1,15 @@
-syntax on "Enable syntax highlighting
-colorscheme slate "Set colorscheme
-set history=500 "Number of history commands remembered
-set nocp "Nocompatibe => be improved
-filetype plugin indent on "Detect filetype and load appropriate file
-set hlsearch "Highlight words matching search patterns
-set ignorecase "Make searches case insensitive
-set smartcase "Unless upper case is typed don't honor case
-set ruler "Show position in a file on the status line
-set incsearch "Move as search pattern is typed
-set exrc "Allow loading of user defined extra config
-set secure "Disable :au, shell and :w from exrc
+syntax on " Enable syntax highlighting
+colorscheme slate " Set colorscheme
+set history=500 " Number of history commands remembered
+set nocp " Nocompatibe => be improved
+filetype plugin indent on " Detect filetype and load appropriate file
+set hlsearch " Highlight words matching search patterns
+set ignorecase " Make searches case insensitive
+set smartcase " Unless upper case is typed don't honor case
+set ruler " Show position in a file on the status line
+set incsearch " Move as search pattern is typed
+set exrc " Allow loading of user defined extra config
+set secure " Disable :au, shell and :w from exrc
 
 " Status
 set laststatus=2 "Make the buffer always have a status line
@@ -30,3 +30,7 @@ set splitbelow
 
 " Folding method
 set foldmethod=syntax
+set foldlevel=10
+
+" Enable line numbers by default
+set number
