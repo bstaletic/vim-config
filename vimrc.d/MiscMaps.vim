@@ -31,3 +31,9 @@ set pastetoggle=<F3>
 
 " Make space open and close folds
 nnoremap <space> za
+
+" Map escape to any combination for easier access in insert mode
+inoremap jk <esc>
+inoremap kj <esc>
+inoremap JK <esc>
+inoremap KJ <esc>
