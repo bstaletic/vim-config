@@ -11,7 +11,7 @@ source $HOME/.vim/vimrc.d/Alt.vim
 source $HOME/.vim/vimrc.d/AutoClose.vim
 source $HOME/.vim/vimrc.d/EasyMotion.vim
 source $HOME/.vim/vimrc.d/Gdb.vim
-source $HOME/.vim/vimrc.d/Gundo.vim
+source $HOME/.vim/vimrc.d/Undotree.vim
 source $HOME/.vim/vimrc.d/Gitgutter.vim
 source $HOME/.vim/vimrc.d/Netrw.vim
 source $HOME/.vim/vimrc.d/UltiSnips.vim
