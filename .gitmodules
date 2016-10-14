@@ -26,9 +26,6 @@
 	path = pack/navigation/start/easymotion
 	url = https://github.com/easymotion/vim-easymotion
 	branch = master
-[submodule "pack/navigation/start/gundo"]
-	path = pack/navigation/start/gundo
-	url = https://github.com/sjl/gundo.vim
 	branch = master
 [submodule "pack/snipets/start/snippets"]
 	path = pack/snipets/start/snippets
@@ -61,4 +58,8 @@
 [submodule "pack/async/start/asyncrun"]
 	path = pack/async/start/asyncrun
 	url = https://github.com/skywind3000/asyncrun.vim
+	branch = master
+[submodule "pack/navigation/start/undotree"]
+	path = pack/navigation/start/undotree
+	url = https://github.com/mbbill/undotree
 	branch = master
