@@ -61,3 +61,7 @@ function! Tabline()
   return s
 endfunction
 set tabline=%!Tabline()
+
+" Undo files and dirs
+set undofile
+set undodir="~/.vim/undo,."
