@@ -9,3 +9,6 @@ let g:netrw_browse_split=4
 let g:netrw_altv=1
 "Take up 25%
 let g:netrw_winsize=25
+
+"Open netrw in vertical split
+nnoremap <F7> :Vex<CR>
