@@ -1,6 +1,6 @@
 nnoremap Y y$
 "nnoremap <F1> :set invnumber<CR>
-nnoremap <F2> :set invrelativenumber<CR> :set invnumber<CR>
+nnoremap <F2> :set invrelativenumber invnumber<CR>
 "let mapleader=' '
 
 " Easier clipboard access
