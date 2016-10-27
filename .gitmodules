@@ -1,65 +1,64 @@
-[submodule "pack/alternate/opt/a.vim"]
-	path = pack/alternate/opt/a.vim
+[submodule "pack/bundle/opt/a.vim"]
+	path = pack/bundle/opt/a.vim
 	url = https://github.com/vim-scripts/a.vim
 	branch = master
-[submodule "pack/brackets/start/autoclose"]
-	path = pack/brackets/start/autoclose
-	url = https://github.com/Townk/vim-autoclose
-	branch = master
-[submodule "pack/brackets/start/surround"]
-	path = pack/brackets/start/surround
-	url = https://github.com/tpope/vim-surround
-	branch = master
-[submodule "pack/gdb/opt/Conque-GDB"]
-	path = pack/gdb/opt/Conque-GDB
+[submodule "pack/bundle/opt/Conque-GDB"]
+	path = pack/bundle/opt/Conque-GDB
 	url = https://github.com/vim-scripts/Conque-GDB
 	branch = master
-[submodule "pack/marks/start/signature"]
-	path = pack/marks/start/signature
-	url = https://github.com/kshenoy/vim-signature
-	branch = master
-[submodule "pack/navigation/opt/taglist"]
-	path = pack/navigation/opt/taglist
+[submodule "pack/bundle/opt/taglist"]
+	path = pack/bundle/opt/taglist
 	url = https://github.com/vim-scripts/taglist.vim
 	branch = master
-[submodule "pack/navigation/start/easymotion"]
-	path = pack/navigation/start/easymotion
+[submodule "pack/bundle/start/autoclose"]
+	path = pack/bundle/start/autoclose
+	url = https://github.com/Townk/vim-autoclose
+	branch = master
+[submodule "pack/bundle/start/surround"]
+	path = pack/bundle/start/surround
+	url = https://github.com/tpope/vim-surround
+	branch = master
+[submodule "pack/bundle/start/signature"]
+	path = pack/bundle/start/signature
+	url = https://github.com/kshenoy/vim-signature
+	branch = master
+[submodule "pack/bundle/start/easymotion"]
+	path = pack/bundle/start/easymotion
 	url = https://github.com/easymotion/vim-easymotion
 	branch = master
-	branch = master
-[submodule "pack/snipets/start/snippets"]
-	path = pack/snipets/start/snippets
+[submodule "pack/bundle/start/snippets"]
+	path = pack/bundle/start/snippets
 	url = https://github.com/honza/vim-snippets
 	branch = master
-[submodule "pack/snipets/start/ultisnips"]
-	path = pack/snipets/start/ultisnips
+[submodule "pack/bundle/start/ultisnips"]
+	path = pack/bundle/start/ultisnips
 	url = https://github.com/SirVer/ultisnips
 	branch = master
-[submodule "pack/tmux/start/tmux-navigator"]
-	path = pack/tmux/start/tmux-navigator
+[submodule "pack/bundle/start/tmux-navigator"]
+	path = pack/bundle/start/tmux-navigator
 	url = https://github.com/christoomey/vim-tmux-navigator
 	branch = master
-[submodule "pack/ycm/opt/YCM-Generator"]
-	path = pack/ycm/opt/YCM-Generator
+[submodule "pack/bundle/opt/YCM-Generator"]
+	path = pack/bundle/opt/YCM-Generator
 	url = https://github.com/rdnetto/YCM-Generator
-	branch = stable
-[submodule "pack/ycm/opt/YouCompleteMe"]
-	path = pack/ycm/opt/YouCompleteMe
+	branch = develop
+[submodule "pack/bundle/opt/YouCompleteMe"]
+	path = pack/bundle/opt/YouCompleteMe
 	url = https://github.com/oblitum/YouCompleteMe
 	branch = master
-[submodule "pack/git/start/fugitive"]
-	path = pack/git/start/fugitive
+[submodule "pack/bundle/start/fugitive"]
+	path = pack/bundle/start/fugitive
 	url = https://github.com/tpope/vim-fugitive
 	branch = master
-[submodule "pack/git/start/gitgutter"]
-	path = pack/git/start/gitgutter
+[submodule "pack/bundle/start/gitgutter"]
+	path = pack/bundle/start/gitgutter
 	url = https://github.com/airblade/vim-gitgutter
 	branch = master
-[submodule "pack/async/start/asyncrun"]
-	path = pack/async/start/asyncrun
+[submodule "pack/bundle/start/asyncrun"]
+	path = pack/bundle/start/asyncrun
 	url = https://github.com/skywind3000/asyncrun.vim
 	branch = master
-[submodule "pack/navigation/start/undotree"]
-	path = pack/navigation/start/undotree
+[submodule "pack/bundle/start/undotree"]
+	path = pack/bundle/start/undotree
 	url = https://github.com/mbbill/undotree
 	branch = master
