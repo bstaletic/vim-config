@@ -1,5 +1,5 @@
-nnoremap n n:call HLNext(0.4)<CR>
-nnoremap N N:call HLNext(0.4)<CR>
+nnoremap n n:call HLNext(0.3)<CR>
+nnoremap N N:call HLNext(0.3)<CR>
 
 
 function! HLNext (blinktime)
@@ -7,11 +7,14 @@ function! HLNext (blinktime)
 	let [bufnum, lnum, col, off] = getpos('.')
 	let matchlen = strlen(matchstr(strpart(getline('.'),col-1),@/))
 	let target_pat = '\c\%#\%('.@/.'\)'
-	let ring = matchadd('WhiteOnRed', target_pat, 101)
-	redraw
-	exec 'sleep ' . float2nr(a:blinktime * 1000) . 'm'
-	call matchdelete(ring)
-	redraw
+	for i in [ 1, 2 ]
+		let ring = matchadd('WhiteOnRed', target_pat, 101)
+		redraw
+		exec 'sleep ' . float2nr(a:blinktime * 300) . 'm'
+		call matchdelete(ring)
+		redraw
+		exec 'sleep ' . float2nr(a:blinktime * 300) . 'm'
+	endfor
 endfunction
 
 "======[ Magically build interim directories if necessary ]===================
