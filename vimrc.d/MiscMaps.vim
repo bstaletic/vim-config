@@ -26,6 +26,7 @@ nnoremap # #:call HLNext(0.3)<CR>
 "nnoremap <up> <nop>
 "nnoremap <down> <nop>
 "nnoremap <left> <nop>
+"nnoremap <right> <nop>
 
 " Paste mapping
 set pastetoggle=<F3>
