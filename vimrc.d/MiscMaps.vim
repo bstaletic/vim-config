@@ -32,7 +32,7 @@ nnoremap # #:call HLNext(0.3)<CR>
 set pastetoggle=<F3>
 
 " Make space open and close folds
-nnoremap <space> za
+nnoremap <Leader><space> za
 
 " Map escape to any combination for easier access in insert mode
 inoremap jk <esc>
