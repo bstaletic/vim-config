@@ -1,5 +1,5 @@
 syntax on " Enable syntax highlighting
-colorscheme slate " Set colorscheme
+colorscheme pmenu " Set colorscheme
 set history=500 " Number of history commands remembered
 set nocp " Nocompatibe => be improved
 filetype plugin indent on " Detect filetype and load appropriate file
