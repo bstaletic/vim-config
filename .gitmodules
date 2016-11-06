@@ -62,3 +62,7 @@
 	path = pack/bundle/start/undotree
 	url = https://github.com/mbbill/undotree
 	branch = master
+[submodule "pack/bundle/start/vim-repeat"]
+	path = pack/bundle/start/vim-repeat
+	url = https://github.com/tpope/vim-repeat
+	branch = master
