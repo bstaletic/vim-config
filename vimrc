@@ -8,7 +8,7 @@ source $HOME/.vim/vimrc.d/PythonAutocmd.vim
 source $HOME/.vim/vimrc.d/VimAutocmd.vim
 " Plugin options
 source $HOME/.vim/vimrc.d/Alt.vim
-source $HOME/.vim/vimrc.d/AutoClose.vim
+source $HOME/.vim/vimrc.d/AutoPairs.vim
 source $HOME/.vim/vimrc.d/EasyMotion.vim
 source $HOME/.vim/vimrc.d/Gdb.vim
 source $HOME/.vim/vimrc.d/Undotree.vim

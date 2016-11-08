@@ -10,10 +10,6 @@
 	path = pack/bundle/opt/taglist
 	url = https://github.com/vim-scripts/taglist.vim
 	branch = master
-[submodule "pack/bundle/start/autoclose"]
-	path = pack/bundle/start/autoclose
-	url = https://github.com/Townk/vim-autoclose
-	branch = master
 [submodule "pack/bundle/start/surround"]
 	path = pack/bundle/start/surround
 	url = https://github.com/tpope/vim-surround
@@ -65,4 +61,8 @@
 [submodule "pack/bundle/start/vim-repeat"]
 	path = pack/bundle/start/vim-repeat
 	url = https://github.com/tpope/vim-repeat
+	branch = master
+[submodule "pack/bundle/start/auto-pairs"]
+	path = pack/bundle/start/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs
 	branch = master
