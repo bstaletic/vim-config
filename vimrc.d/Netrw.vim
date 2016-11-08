@@ -11,4 +11,4 @@ let g:netrw_altv=1
 let g:netrw_winsize=25
 
 "Open netrw in vertical split
-nnoremap <F7> :Vex<CR>
+nnoremap <F7> :Lex<CR>
