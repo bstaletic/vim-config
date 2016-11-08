@@ -34,10 +34,6 @@
 	path = pack/bundle/start/tmux-navigator
 	url = https://github.com/christoomey/vim-tmux-navigator
 	branch = master
-[submodule "pack/bundle/opt/YCM-Generator"]
-	path = pack/bundle/opt/YCM-Generator
-	url = https://github.com/rdnetto/YCM-Generator
-	branch = develop
 [submodule "pack/bundle/opt/YouCompleteMe"]
 	path = pack/bundle/opt/YouCompleteMe
 	url = https://github.com/oblitum/YouCompleteMe
