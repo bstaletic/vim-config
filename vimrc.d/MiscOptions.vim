@@ -1,6 +1,6 @@
 syntax on " Enable syntax highlighting
 colorscheme pmenu " Set colorscheme
-set history=500 " Number of history commands remembered
+set history=5000 " Number of history commands remembered
 set nocp " Nocompatibe => be improved
 filetype plugin indent on " Detect filetype and load appropriate file
 set hlsearch " Highlight words matching search patterns
@@ -32,7 +32,7 @@ set splitbelow
 
 " Folding method
 set foldmethod=syntax
-set foldlevel=10
+set foldlevel=1
 
 " Enable line numbers by default
 set number
