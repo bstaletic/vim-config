@@ -6,10 +6,6 @@
 	path = pack/bundle/opt/Conque-GDB
 	url = https://github.com/vim-scripts/Conque-GDB
 	branch = master
-[submodule "pack/bundle/opt/taglist"]
-	path = pack/bundle/opt/taglist
-	url = https://github.com/vim-scripts/taglist.vim
-	branch = master
 [submodule "pack/bundle/start/surround"]
 	path = pack/bundle/start/surround
 	url = https://github.com/tpope/vim-surround
