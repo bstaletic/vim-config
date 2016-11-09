@@ -30,10 +30,6 @@
 	path = pack/bundle/start/tmux-navigator
 	url = https://github.com/christoomey/vim-tmux-navigator
 	branch = master
-[submodule "pack/bundle/opt/YouCompleteMe"]
-	path = pack/bundle/opt/YouCompleteMe
-	url = https://github.com/oblitum/YouCompleteMe
-	branch = master
 [submodule "pack/bundle/start/fugitive"]
 	path = pack/bundle/start/fugitive
 	url = https://github.com/tpope/vim-fugitive
