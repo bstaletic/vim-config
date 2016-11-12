@@ -1,4 +1,4 @@
-nnoremap Y y$
+"nnoremap Y y$
 nnoremap <F2> :set invrelativenumber invnumber<CR>
 
 "Easier <Leader> binding
@@ -37,5 +37,9 @@ nnoremap <Leader><space> za
 " Map escape to any combination for easier access in insert mode
 inoremap jk <esc>
 inoremap kj <esc>
-inoremap JK <esc>
-inoremap KJ <esc>
+
+" Bind omnifunc to <C-Space>
+inoremap <C-@> <C-x><C-o>
+" Use tab and shift-tab to go through pmenu
+inoremap <Tab> <C-n>
+inoremap <S-Tab> <C-p>

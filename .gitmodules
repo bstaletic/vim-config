@@ -38,10 +38,6 @@
 	path = pack/bundle/start/gitgutter
 	url = https://github.com/airblade/vim-gitgutter
 	branch = master
-[submodule "pack/bundle/start/asyncrun"]
-	path = pack/bundle/start/asyncrun
-	url = https://github.com/skywind3000/asyncrun.vim
-	branch = master
 [submodule "pack/bundle/start/undotree"]
 	path = pack/bundle/start/undotree
 	url = https://github.com/mbbill/undotree
@@ -53,4 +49,12 @@
 [submodule "pack/bundle/start/auto-pairs"]
 	path = pack/bundle/start/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs
+	branch = master
+[submodule "pack/bundle/start/VimCompletesMe"]
+	path = pack/bundle/start/VimCompletesMe
+	url = https://github.com/ajh17/VimCompletesMe
+	branch = master
+[submodule "pack/bundle/start/gutentags"]
+	path = pack/bundle/start/gutentags
+	url = https://github.com/ludovicchabant/vim-gutentags
 	branch = master

@@ -9,7 +9,6 @@ set smartcase " Unless upper case is typed don't honor case
 set ruler " Show position in a file on the status line
 set incsearch " Move as search pattern is typed
 set exrc " Allow loading of user defined extra config
-set secure " Disable :au, shell and :w from exrc
 set hidden " Hide buffers instead of requiring the user to save and quit
 set matchpairs+=<:> " Make % match angle brackets
 
