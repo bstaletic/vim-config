@@ -62,3 +62,7 @@
 	path = pack/bundle/start/neomake-autolint
 	url = https://github.com/dojoteef/neomake-autolint
 	branch = master
+[submodule "pack/bundle/start/neomake"]
+	path = pack/bundle/start/neomake
+	url = https://github.com/neomake/neomake
+	branch = master
