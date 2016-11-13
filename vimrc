@@ -14,6 +14,7 @@ source $HOME/.vim/vimrc.d/Gdb.vim
 source $HOME/.vim/vimrc.d/Undotree.vim
 source $HOME/.vim/vimrc.d/Gitgutter.vim
 source $HOME/.vim/vimrc.d/Netrw.vim
+source $HOME/.vim/vimrc.d/Neomake.vim
 source $HOME/.vim/vimrc.d/UltiSnips.vim
 "======[ Credits for HLNext and automagical mkdir go to Damian Conway ]=======
 source $HOME/.vim/dcvimrc

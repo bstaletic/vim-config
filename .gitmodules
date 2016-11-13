@@ -58,3 +58,7 @@
 	path = pack/bundle/start/gutentags
 	url = https://github.com/ludovicchabant/vim-gutentags
 	branch = master
+[submodule "pack/bundle/start/neomake-autolint"]
+	path = pack/bundle/start/neomake-autolint
+	url = https://github.com/dojoteef/neomake-autolint
+	branch = master
