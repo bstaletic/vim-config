@@ -39,7 +39,8 @@ inoremap jk <esc>
 inoremap kj <esc>
 
 " Bind omnifunc to <C-Space>
-inoremap <C-@> <C-x><C-o>
+inoremap <C-Space> <C-x><C-o>
+imap <C-@> <C-Space>
 " Use tab and shift-tab to go through pmenu
 inoremap <Tab> <C-n>
 inoremap <S-Tab> <C-p>

@@ -1,5 +1,5 @@
 " Python indentation workaround
-aug puton
-	au!
-	au FileType python setl ts=4 expandtab
-aug END
+augroup puton
+	autocmd!
+	autocmd FileType python setl ts=4 expandtab
+augroup END
