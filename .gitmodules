@@ -2,10 +2,6 @@
 	path = pack/bundle/opt/a.vim
 	url = https://github.com/vim-scripts/a.vim
 	branch = master
-[submodule "pack/bundle/opt/Conque-GDB"]
-	path = pack/bundle/opt/Conque-GDB
-	url = https://github.com/vim-scripts/Conque-GDB
-	branch = master
 [submodule "pack/bundle/start/surround"]
 	path = pack/bundle/start/surround
 	url = https://github.com/tpope/vim-surround
@@ -65,4 +61,12 @@
 [submodule "pack/bundle/start/neomake"]
 	path = pack/bundle/start/neomake
 	url = https://github.com/neomake/neomake
+	branch = master
+[submodule "pack/bundle/start/vimproc"]
+	path = pack/bundle/start/vimproc
+	url = https://github.com/Shougo/vimproc.vim
+	branch = master
+[submodule "pack/bundle/opt/vebugger"]
+	path = pack/bundle/opt/vebugger
+	url = https://github.com/idanarye/vim-vebugger/
 	branch = master
