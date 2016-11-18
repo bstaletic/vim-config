@@ -70,3 +70,11 @@
 	path = pack/bundle/opt/vebugger
 	url = https://github.com/idanarye/vim-vebugger/
 	branch = master
+[submodule "pack/bundle/start/abolish"]
+	path = pack/bundle/start/abolish
+	url = https://github.com/tpope/vim-abolish
+	branch = master
+[submodule "pack/bundle/start/unimpaired"]
+	path = pack/bundle/start/unimpaired
+	url = https://github.com/tpope/vim-unimpaired
+	branch = master
