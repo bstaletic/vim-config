@@ -1,4 +1,6 @@
 " Set errorformat for C/C++ files
-if (&ft==c || &ft==cpp)
-	set errorformat=%f:%l:\ %m
+let fts = ['c', 'cpp']
+if index(fts, &filetype) == -1
+	    " do stuff
+	set errorformat=%f:%l:%c:\ %trror:\ %m,%f:%l:%c:\ %tarning:\ %m,%I%f:%l:%c:\ note:\ %m,%f:%l:%c:\ %m,%f:%l:\ %trror:\ %m,%f:%l:\ %tarning:\ %m,%I%f:%l:\ note:\ %m,%f:%l:\ %m,%-G%f:%s:
 endif

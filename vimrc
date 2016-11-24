@@ -1,6 +1,8 @@
 " Stuff not belonging anywhere else
 source $HOME/.vim/vimrc.d/MiscOptions.vim
 source $HOME/.vim/vimrc.d/MiscMaps.vim
+" Language specific options
+source $HOME/.vim/vimrc.d/COptions.vim
 " Autocommands for various languages
 source $HOME/.vim/vimrc.d/CAutocmd.vim
 source $HOME/.vim/vimrc.d/PythonAutocmd.vim
