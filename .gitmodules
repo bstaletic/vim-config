@@ -74,7 +74,7 @@
 	path = pack/bundle/start/unimpaired
 	url = https://github.com/tpope/vim-unimpaired
 	branch = master
-[submodule "pack/bundle/start/bufferline"]
-	path = pack/bundle/start/bufferline
-	url = https://github.com/bling/vim-bufferline
+[submodule "pack/bundle/start/minibufexpl"]
+	path = pack/bundle/start/minibufexpl
+	url = https://github.com/weynhamz/vim-plugin-minibufexpl
 	branch = master
