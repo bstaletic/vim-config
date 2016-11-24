@@ -1,7 +1,6 @@
 syntax on " Enable syntax highlighting
 colorscheme pmenu " Set colorscheme
 set history=5000 " Number of history commands remembered
-set nocp " Nocompatibe => be improved
 filetype plugin indent on " Detect filetype and load appropriate file
 set hlsearch " Highlight words matching search patterns
 set ignorecase " Make searches case insensitive
