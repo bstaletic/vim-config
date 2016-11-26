@@ -1,4 +1,4 @@
-" Netrw
+"Netrw
 "Show files in wide mode
 let g:netrw_liststyle=3
 "Disable the annoying banner at the top
@@ -11,4 +11,4 @@ let g:netrw_altv=1
 let g:netrw_winsize=25
 
 "Open netrw in vertical split
-nnoremap <F7> :Lex<CR>
+nnoremap <silent> <F7> :Lex<CR>

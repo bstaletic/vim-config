@@ -44,5 +44,5 @@ let g:neomake_info_sign = {'text': 'I>', 'texthl': 'MyInfoMsg'}
 
 augroup neomake
 	autocmd!
-	autocmd BufWritePost * :Neomake
+	autocmd BufWritePost * Neomake
 augroup END
