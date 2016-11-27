@@ -1,7 +1,7 @@
 nnoremap Y y$
 nnoremap <F2> :set invrelativenumber invnumber<CR>
 
-"Easier <Leader> binding
+" Easier <Leader> binding
 let mapleader=' '
 
 " Easier clipboard access
@@ -36,6 +36,3 @@ nnoremap <Leader><space> za
 
 " Map escape to any combination for easier access in insert mode
 inoremap jk <esc>
-inoremap kj <esc>
-inoremap JK <esc>
-inoremap KJ <esc>

@@ -2,14 +2,6 @@
 	path = pack/bundle/opt/a.vim
 	url = https://github.com/vim-scripts/a.vim
 	branch = master
-[submodule "pack/bundle/opt/Conque-GDB"]
-	path = pack/bundle/opt/Conque-GDB
-	url = https://github.com/vim-scripts/Conque-GDB
-	branch = master
-[submodule "pack/bundle/opt/taglist"]
-	path = pack/bundle/opt/taglist
-	url = https://github.com/vim-scripts/taglist.vim
-	branch = master
 [submodule "pack/bundle/start/surround"]
 	path = pack/bundle/start/surround
 	url = https://github.com/tpope/vim-surround
@@ -61,4 +53,24 @@
 [submodule "pack/bundle/start/auto-pairs"]
 	path = pack/bundle/start/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs
+	branch = master
+[submodule "pack/bundle/start/vimproc"]
+	path = pack/bundle/start/vimproc
+	url = https://github.com/Shougo/vimproc.vim
+	branch = master
+[submodule "pack/bundle/opt/vebugger"]
+	path = pack/bundle/opt/vebugger
+	url = https://github.com/idanarye/vim-vebugger/
+	branch = master
+[submodule "pack/bundle/start/abolish"]
+	path = pack/bundle/start/abolish
+	url = https://github.com/tpope/vim-abolish
+	branch = master
+[submodule "pack/bundle/start/unimpaired"]
+	path = pack/bundle/start/unimpaired
+	url = https://github.com/tpope/vim-unimpaired
+	branch = master
+[submodule "pack/bundle/start/minibufexpl"]
+	path = pack/bundle/start/minibufexpl
+	url = https://github.com/weynhamz/vim-plugin-minibufexpl
 	branch = master

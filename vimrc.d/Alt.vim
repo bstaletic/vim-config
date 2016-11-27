@@ -1,3 +1,3 @@
 " a.vim bindings
-nnoremap <F4> :AV<CR>
-nnoremap <F5> :AT<CR>
+nnoremap <silent> <F4> :AV<CR>
+nnoremap <silent> <F5> :AT<CR>
