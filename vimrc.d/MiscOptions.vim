@@ -1,5 +1,5 @@
 syntax on " Enable syntax highlighting
-colorscheme pmenu " Set colorscheme
+colorscheme boris " Set colorscheme
 set history=5000 " Number of history commands remembered
 filetype plugin indent on " Detect filetype and load appropriate file
 set hlsearch " Highlight words matching search patterns
@@ -10,6 +10,7 @@ set incsearch " Move as search pattern is typed
 set exrc " Allow loading of user defined extra config
 set hidden " Hide buffers instead of requiring the user to save and quit
 set matchpairs+=<:> " Make % match angle brackets
+set signcolumn=yes " Always enable sign column, otherwise it can be distracting
 
 " Status
 set laststatus=2 "Make the buffer always have a status line
