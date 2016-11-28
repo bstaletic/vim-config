@@ -74,3 +74,7 @@
 	path = pack/bundle/start/minibufexpl
 	url = https://github.com/weynhamz/vim-plugin-minibufexpl
 	branch = master
+[submodule "pack/bundle/start/gutentags"]
+	path = pack/bundle/start/gutentags
+	url = https://github.com/ludovicchabant/vim-gutentags
+	branch = master
