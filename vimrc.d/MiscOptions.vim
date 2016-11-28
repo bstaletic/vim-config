@@ -66,4 +66,6 @@ set tabline=%!Tabline()
 
 " Undo files and dirs
 set undofile
-set undodir="~/.vim/undo,."
+set undodir=~/.vim/.undo
+" Swap dir
+set dir=~/.vim/.swap
