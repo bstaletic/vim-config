@@ -12,6 +12,7 @@ set secure " Disable :au, shell and :w from exrc
 set hidden " Hide buffers instead of requiring the user to save and quit
 set matchpairs+=<:> " Make % match angle brackets
 set signcolumn=yes " Always enable sign column, otherwise it can be distracting
+set path+=**
 
 " Status
 set laststatus=2 "Make the buffer always have a status line
