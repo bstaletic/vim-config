@@ -36,3 +36,8 @@ nnoremap <Leader><space> za
 
 " Map escape to any combination for easier access in insert mode
 inoremap jk <esc>
+
+" Use <Tab> and <S-Tab> to traverse the completion menu and <C-C> to close it
+inoremap <expr> <C-C> pumvisible() ? "\<C-Y>" : "\<C-C>"
+inoremap <expr> <Tab> pumvisible() ? "\<C-N>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-P>" : "\<S-Tab>"
