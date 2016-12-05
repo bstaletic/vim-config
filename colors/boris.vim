@@ -1,12 +1,12 @@
-if version > 580
+if v:version > 580
 	hi clear
-	if exists("syntax_on")
+	if exists('syntax_on')
 		syntax reset
 	endif
 endif
 
 set t_Co=256
-let g:colors_name = "boris"
+let g:colors_name = 'boris'
 
 " Colors for completion menu
 hi PMenuSbar guifg=NONE guibg=#848688 guisp=#848688 gui=NONE ctermfg=NONE ctermbg=102 cterm=NONE

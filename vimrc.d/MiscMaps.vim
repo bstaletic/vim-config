@@ -2,7 +2,7 @@ nnoremap Y y$
 nnoremap <F2> :set invrelativenumber invnumber<CR>
 
 " Easier <Leader> binding
-let mapleader=' '
+let g:mapleader=' '
 
 " Easier clipboard access
 vnoremap <Leader>y "*y

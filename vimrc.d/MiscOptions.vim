@@ -40,28 +40,28 @@ set number
 
 " Set tabline
 function! Tabline()
-  let s = ''
-  for i in range(tabpagenr('$'))
-    let tab = i + 1
-    let winnr = tabpagewinnr(tab)
-    let buflist = tabpagebuflist(tab)
-    let bufnr = buflist[winnr - 1]
-    let bufname = bufname(bufnr)
-    let bufmodified = getbufvar(bufnr, "&mod")
+  let l:s = ''
+  for l:i in range(tabpagenr('$'))
+    let l:tab = l:i + 1
+    let l:winnr = tabpagewinnr(l:tab)
+    let l:buflist = tabpagebuflist(l:tab)
+    let l:bufnr = l:buflist[l:winnr - 1]
+    let l:bufname = bufname(l:bufnr)
+    let l:bufmodified = getbufvar(l:bufnr, '&mod')
 
-    let s .= '%' . tab . 'T'
-    let s .= (tab == tabpagenr() ? '%#TabLineSel#' : '%#TabLine#')
-    let s .= ' ' . tab .':'
-    let s .= (bufname != '' ? ''. fnamemodify(bufname, ':t') . ' ' : &buftype == 'quickfix' ? '[Qickfix] ' : '[No name] ' )
-    let s .= '[' . winnr . ']'
+    let l:s .= '%' . l:tab . 'T'
+    let l:s .= (l:tab == tabpagenr() ? '%#TabLineSel#' : '%#TabLine#')
+    let l:s .= ' ' . l:tab .':'
+    let l:s .= (l:bufname !=# '' ? ''. fnamemodify(l:bufname, ':t') . ' ' : &buftype ==# 'quickfix' ? '[Qickfix] ' : '[No name] ' )
+    let l:s .= '[' . l:winnr . ']'
 
-    if bufmodified
-      let s .= '[+]'
+    if l:bufmodified
+      let l:s .= '[+]'
     endif
   endfor
 
-  let s .= '%#TabLineFill#'
-  return s
+  let l:s .= '%#TabLineFill#'
+  return l:s
 endfunction
 set tabline=%!Tabline()
 
@@ -69,4 +69,4 @@ set tabline=%!Tabline()
 set undofile
 set undodir=~/.vim/.undo
 " Swap dir
-set dir=~/.vim/.swap
+set directory=~/.vim/.swap
