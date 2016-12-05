@@ -38,10 +38,6 @@
 	path = pack/bundle/start/gitgutter
 	url = https://github.com/airblade/vim-gitgutter
 	branch = master
-[submodule "pack/bundle/start/asyncrun"]
-	path = pack/bundle/start/asyncrun
-	url = https://github.com/skywind3000/asyncrun.vim
-	branch = master
 [submodule "pack/bundle/start/undotree"]
 	path = pack/bundle/start/undotree
 	url = https://github.com/mbbill/undotree
@@ -77,4 +73,8 @@
 [submodule "pack/bundle/start/gutentags"]
 	path = pack/bundle/start/gutentags
 	url = https://github.com/ludovicchabant/vim-gutentags
+	branch = master
+[submodule "pack/bundle/start/neomake"]
+	path = pack/bundle/start/neomake
+	url = https://github.com/neomake/neomake
 	branch = master

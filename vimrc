@@ -13,6 +13,7 @@ source $HOME/.vim/vimrc.d/EasyMotion.vim
 source $HOME/.vim/vimrc.d/Gdb.vim
 source $HOME/.vim/vimrc.d/Gitgutter.vim
 source $HOME/.vim/vimrc.d/MBE.vim
+source $HOME/.vim/vimrc.d/Neomake.vim
 source $HOME/.vim/vimrc.d/Netrw.vim
 source $HOME/.vim/vimrc.d/UltiSnips.vim
 source $HOME/.vim/vimrc.d/Undotree.vim
