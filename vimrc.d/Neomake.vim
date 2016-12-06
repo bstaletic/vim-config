@@ -13,12 +13,12 @@ let g:neomake_vim_enabled_makers = [ 'vint', ]
 let g:neomake_vim_vint_maker = {
 	\ 'exe': 'vint',
 	\ 'args': [ '-w', '-f', '{file_path}:{line_number}:{column_number}:{severity}:{description} ({policy_name})', ],
-	\ 'errorformat': '%-G%f:%s:,%f:%l:%c:%trror:%m,%f:%l:%c:%tarning:%m',
+	\ 'errorformat': '%f:%l:%c:%trror:%m,%f:%l:%c:%tarning:%m',
 	\ }
 let g:neomake_vim_vintall_maker = {
 	\ 'exe': 'vint',
 	\ 'args': [ '-s', '-f', '{file_path}:{line_number}:{column_number}:{severity}:{description} ({policy_name})', ],
-	\ 'errorformat': '%-G%f:%s:,%I%f:%l:%c:style_problem:%m,%f:%l:%c:%t%*[^:]:%m',
+	\ 'errorformat': '%I%f:%l:%c:style_problem:%m,%f:%l:%c:%t%*[^:]:%m',
 	\ }
 
 " The default is nice, so use that
