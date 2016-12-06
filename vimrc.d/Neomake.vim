@@ -2,12 +2,6 @@
 let g:neomake_c_enabled_makers=['gcc',]
 let g:neomake_cpp_enabled_makers=['gcc',]
 
-" Python2 linters
-let g:neomake_python_enabled_makers = [ 'flake8', 'flake82', ]
-let g:neomake_python_flake82_maker = {
-	\ 'exe': 'flake8-python2'
-	\ }
-
 " Vimscript linters
 let g:neomake_vim_enabled_makers = [ 'vint', ]
 let g:neomake_vim_vint_maker = {
