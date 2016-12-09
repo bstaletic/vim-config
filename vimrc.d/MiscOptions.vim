@@ -13,6 +13,11 @@ set hidden " Hide buffers instead of requiring the user to save and quit
 set matchpairs+=<:> " Make % match angle brackets
 set signcolumn=yes " Always enable sign column, otherwise it can be distracting
 set path+=**
+set backspace=indent,eol,start      "BS past autoindents, line boundaries,
+                                    "     and even the start of insertion
+
+set fileformats=unix,mac,dos        "Handle Mac and DOS line-endings
+                                    "but prefer Unix endings
 
 " Status
 set laststatus=2 "Make the buffer always have a status line

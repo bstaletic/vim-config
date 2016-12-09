@@ -25,19 +25,3 @@ augroup AutoMkdir
     autocmd!
     autocmd  BufNewFile  *  :call EnsureDirExists()
 augroup END
-
-"=====[ Miscellaneous features (mainly options) ]=====================
-
-set title           "Show filename in titlebar of window
-set titleold=
-
-set nomore          "Don't page long listings
-
-set autowrite       "Save buffer automatically when changing files
-set autoread        "Always reload buffer when external changes detected
-
-set backspace=indent,eol,start      "BS past autoindents, line boundaries,
-                                    "     and even the start of insertion
-
-set fileformats=unix,mac,dos        "Handle Mac and DOS line-endings
-                                    "but prefer Unix endings
