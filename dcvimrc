@@ -1,22 +1,3 @@
-nnoremap n n:call HLNext(0.3)<CR>
-nnoremap N N:call HLNext(0.3)<CR>
-
-
-function! HLNext (blinktime)
-	highlight WhiteOnRed ctermfg=white ctermbg=red
-	let [bufnum, lnum, col, off] = getpos('.')
-	let matchlen = strlen(matchstr(strpart(getline('.'),col-1),@/))
-	let target_pat = '\c\%#\%('.@/.'\)'
-	for i in [ 1, 2 ]
-		let ring = matchadd('WhiteOnRed', target_pat, 101)
-		redraw
-		exec 'sleep ' . float2nr(a:blinktime * 300) . 'm'
-		call matchdelete(ring)
-		redraw
-		exec 'sleep ' . float2nr(a:blinktime * 300) . 'm'
-	endfor
-endfunction
-
 "======[ Magically build interim directories if necessary ]===================
 
 function! AskQuit (msg, options, quit_option)
@@ -55,23 +36,8 @@ set nomore          "Don't page long listings
 set autowrite       "Save buffer automatically when changing files
 set autoread        "Always reload buffer when external changes detected
 
-"           +--Disable hlsearch while loading viminfo
-"           | +--Remember marks for last 500 files
-"           | |    +--Remember up to 10000 lines in each register
-"           | |    |      +--Remember up to 1MB in each register
-"           | |    |      |     +--Remember last 1000 search patterns
-"           | |    |      |     |     +---Remember last 1000 commands
-"           | |    |      |     |     |
-"           v v    v      v     v     v
-set viminfo=h,'500,<10000,s1000,/1000,:1000
-
 set backspace=indent,eol,start      "BS past autoindents, line boundaries,
                                     "     and even the start of insertion
 
 set fileformats=unix,mac,dos        "Handle Mac and DOS line-endings
                                     "but prefer Unix endings
-
-set updatecount=10                  "Save buffer every 10 chars typed
-
-" Keycodes and maps timeout in 3/10 sec...
-"set timeout timeoutlen=300 ttimeoutlen=300

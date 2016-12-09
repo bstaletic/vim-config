@@ -18,10 +18,6 @@ vnoremap <Leader>P "*P
 " make . work with visually selected lines
 vnoremap . :norm.<CR>
 
-" Only highlight the word under cursor, don't go to the next occurance
-nnoremap * *:call HLNext(0.3)<CR>
-nnoremap # #:call HLNext(0.3)<CR>
-
 " Disable arrow keys when in normal mode
 "nnoremap <up> <nop>
 "nnoremap <down> <nop>

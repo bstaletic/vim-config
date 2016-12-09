@@ -78,3 +78,7 @@
 	path = pack/bundle/start/neomake
 	url = https://github.com/neomake/neomake
 	branch = master
+[submodule "pack/bundle/start/vim-slash"]
+	path = pack/bundle/start/vim-slash
+	url = https://github.com/junegunn/vim-slash
+	branch = master
