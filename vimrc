@@ -20,5 +20,8 @@ source $HOME/.vim/vimrc.d/Slash.vim
 source $HOME/.vim/vimrc.d/UltiSnips.vim
 source $HOME/.vim/vimrc.d/Undotree.vim
 source $HOME/.vim/vimrc.d/Ycm.vim
-"======[ Credits for automagical mkdir go to Damian Conway ]=======
-source $HOME/.vim/vimrc.d/DCvimrc.vim
+"======[ Credits for these convenient plugins go to Damian Conway ]=======
+source $HOME/.vim/vimrc.d/DCblockwise.vim
+source $HOME/.vim/vimrc.d/DCcolalignsimple.vim
+source $HOME/.vim/vimrc.d/DCequalalignsimple.vim
+source $HOME/.vim/vimrc.d/DCmkdir.vim
