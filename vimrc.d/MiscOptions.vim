@@ -12,6 +12,7 @@ set secure " Disable :au, shell and :w from exrc
 set hidden " Hide buffers instead of requiring the user to save and quit
 set matchpairs+=<:> " Make % match angle brackets
 set signcolumn=yes " Always enable sign column, otherwise it can be distracting
+set cpoptions+=>
 set path+=**
 set backspace=indent,eol,start      "BS past autoindents, line boundaries,
                                     "     and even the start of insertion
@@ -38,7 +39,7 @@ set splitbelow
 
 " Folding method
 set foldmethod=syntax
-set foldlevel=1
+set foldlevel=999
 
 " Enable line numbers by default
 set number
