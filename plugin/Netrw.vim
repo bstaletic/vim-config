@@ -1,3 +1,9 @@
+if exists( "g:netrw_config" )
+	finish
+endif
+
+let g:netrw_config = 1
+
 " Netrw
 " Show files in wide mode
 let g:netrw_liststyle=3

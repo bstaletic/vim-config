@@ -1,3 +1,9 @@
+if exists( "g:minibufexplorer_config" )
+	finish
+endif
+
+let g:minibufexplorer_config = 1
+
 " Open MBE on the top
 let g:miniBufExplBRSplit=0
 " Toggle its buffer on <F9>

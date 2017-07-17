@@ -1,4 +1,4 @@
-function! s:blink(times, delay)
+function! slash#blink(times, delay)
 	let s:blink = { 'ticks': 2 * a:times, 'delay': a:delay }
 
 	function! s:blink.tick(_)
@@ -28,5 +28,3 @@ function! s:blink(times, delay)
 	call s:blink.clear()
 	return ''
 endfunction
-
-noremap <expr> <plug>(slash-after) <sid>blink(3, 100)

@@ -1,3 +1,9 @@
+if exists( "g:neomake_config" )
+	finish
+endif
+
+let g:neomake_config = 1
+
 " Enable gcc as a c/cpp linter only
 let g:neomake_c_enabled_makers=['gcc',]
 let g:neomake_cpp_enabled_makers=['gcc',]

@@ -26,10 +26,6 @@
 	path = pack/bundle/start/tmux-navigator
 	url = https://github.com/christoomey/vim-tmux-navigator
 	branch = master
-[submodule "pack/bundle/opt/YouCompleteMe"]
-	path = pack/bundle/opt/YouCompleteMe
-	url = https://github.com/oblitum/YouCompleteMe
-	branch = master
 [submodule "pack/bundle/start/fugitive"]
 	path = pack/bundle/start/fugitive
 	url = https://github.com/tpope/vim-fugitive
@@ -85,4 +81,12 @@
 [submodule "pack/bundle/start/winresizer"]
 	path = pack/bundle/start/winresizer
 	url = https://github.com/simeji/winresizer
+	branch = master
+[submodule "pack/bundle/start/YouCompleteMe"]
+	path = pack/bundle/start/YouCompleteMe
+	url = https://github.com/Valloric/Youcompleteme
+	branch = master
+[submodule "pack/bundle/start/distinguished"]
+	path = pack/bundle/start/distinguished
+	url = https://github.com/Lokaltog/vim-distinguished
 	branch = master
