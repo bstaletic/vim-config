@@ -5,7 +5,7 @@ endif
 let b:custom_man = 1
 
 " Make vim behave more like a pager
-nnoremap <Down> <C-e>
-nnoremap <Up> <C-y>
-nnoremap j <C-e>
-nnoremap k <C-y>
+nnoremap <buffer> <Down> <C-e>
+nnoremap <buffer> <Up> <C-y>
+nnoremap <buffer> j <C-e>
+nnoremap <buffer> k <C-y>

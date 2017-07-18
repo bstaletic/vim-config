@@ -5,5 +5,5 @@ endif
 let b:custom_vim = 1
 
 " Convenience options for vim filetype
-set omnifunc=syntaxcomplete#Complete keywordprg=":help"
-set foldmethod=marker
+setlocal omnifunc=syntaxcomplete#Complete keywordprg=":help"
+setlocal foldmethod=marker
