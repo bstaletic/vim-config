@@ -62,10 +62,6 @@
 	path = pack/bundle/start/unimpaired
 	url = https://github.com/tpope/vim-unimpaired
 	branch = master
-[submodule "pack/bundle/start/minibufexpl"]
-	path = pack/bundle/start/minibufexpl
-	url = https://github.com/weynhamz/vim-plugin-minibufexpl
-	branch = master
 [submodule "pack/bundle/start/neomake"]
 	path = pack/bundle/start/neomake
 	url = https://github.com/neomake/neomake
