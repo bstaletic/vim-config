@@ -4,4 +4,3 @@ endif
 
 let g:slash_config = 1
 
-noremap <expr> <plug>(slash-after) slash#blink(3, 100)

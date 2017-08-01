@@ -87,4 +87,11 @@ cnoreabbrev h vert h
 nnoremap <Leader><Leader>b :ls<CR>:b
 nnoremap <Leader><Leader>r :reg<CR>
 nnoremap <Leader><Leader>m :marks<CR>
+
+" Next match blink hightligh
+nnoremap <silent> n n:call slash#blink(3, 100)<CR>
+nnoremap <silent> N N:call slash#blink(3, 100)<CR>
+nnoremap <silent> # #:call slash#blink(3, 100)<CR>
+nnoremap <silent> * *:call slash#blink(3, 100)<CR>
+
 " }}}
