@@ -1,4 +1,4 @@
-if exists( "g:neomake_config" )
+if exists( 'g:neomake_config' )
 	finish
 endif
 

@@ -1,4 +1,4 @@
-if exists( "g:ycm_config" )
+if exists( 'g:ycm_config' )
 	finish
 endif
 

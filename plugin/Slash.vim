@@ -1,4 +1,4 @@
-if exists( "g:slash_config" )
+if exists( 'g:slash_config' )
 	finish
 endif
 

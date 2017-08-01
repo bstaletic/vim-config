@@ -1,4 +1,4 @@
-if exists( "g:ultisnips_config" )
+if exists( 'g:ultisnips_config' )
 	finish
 endif
 

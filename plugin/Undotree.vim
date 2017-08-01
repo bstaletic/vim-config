@@ -1,4 +1,4 @@
-if exists( "g:undotree_config" )
+if exists( 'g:undotree_config' )
 	finish
 endif
 

@@ -1,4 +1,4 @@
-if exists( "g:netrw_config" )
+if exists( 'g:netrw_config' )
 	finish
 endif
 

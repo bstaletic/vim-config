@@ -1,7 +1,7 @@
-function! slash#blink(times, delay)
+function! slash#blink(times, delay) abort
 	let s:blink = { 'ticks': 2 * a:times, 'delay': a:delay }
 
-	function! s:blink.tick(_)
+	function! s:blink.tick(_) abort
 		highlight WhiteOnRed ctermfg=white ctermbg=red
 		let l:target_pat = '\c\%#\%('.@/.'\)'
 		let l:self.ticks -= 1
@@ -16,7 +16,7 @@ function! slash#blink(times, delay)
 		endif
 	endfunction
 
-	function! s:blink.clear()
+	function! s:blink.clear() abort
 		if exists('w:blink_id')
 			call matchdelete(w:blink_id)
 			unlet w:blink_id

@@ -1,4 +1,4 @@
-if exists( "g:autopair_config" )
+if exists( 'g:autopair_config' )
 	finish
 endif
 

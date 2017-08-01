@@ -1,4 +1,4 @@
-if exists( "g:winresizer_config" )
+if exists( 'g:winresizer_config' )
 	finish
 endif
 

@@ -1,4 +1,4 @@
-if exists( "g:easymotion_config" )
+if exists( 'g:easymotion_config' )
 	finish
 endif
 

@@ -1,4 +1,4 @@
-if exists( "b:custom_man" )
+if exists( 'b:custom_man' )
 	finish
 endif
 

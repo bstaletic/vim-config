@@ -58,7 +58,7 @@ set undodir=~/.vim/.undo
 set directory=~/.vim/.swap
 
 " Use ag as grepprg when available
-if executable("ag")
+if executable('ag')
     set grepprg=ag\ --nogroup\ --nocolor\ --column
     set grepformat=%f:%l:%c:%m,%f:%l:%m
 endif

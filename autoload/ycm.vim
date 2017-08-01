@@ -1,47 +1,47 @@
 " Completing functions using UltiSnips
-function! Ycm#onCompleteDone()
-	let abbr = v:completed_item.abbr
-	let startIdx = stridx(abbr,"(")
-	let endIdx = strridx(abbr,")")
-	if endIdx - startIdx > 1
-		let argsStr = strpart(abbr, startIdx+1, endIdx - startIdx -1)
+function! Ycm#onCompleteDone() abort
+	let l:abbr = v:completed_item.abbr
+	let l:startIdx = stridx(l:abbr,'(')
+	let l:endIdx = strridx(l:abbr,')')
+	if l:endIdx - l:startIdx > 1
+		let l:argsStr = strpart(l:abbr, l:startIdx+1, l:endIdx - l:startIdx -1)
 		"let argsList = split(argsStr, ",")
 
-		let argsList = []
-		let arg = ''
-		let countParen = 0
-		for i in range(strlen(argsStr))
-			if argsStr[i] == ',' && countParen == 0
-				call add(argsList, arg)
-				let arg = ''
-			elseif argsStr[i] == '('
-				let countParen += 1
-				let arg = arg . argsStr[i]
-			elseif argsStr[i] == ')'
-				let countParen -= 1
-				let arg = arg . argsStr[i]
+		let l:argsList = []
+		let l:arg = ''
+		let l:countParen = 0
+		for l:i in range(strlen(l:argsStr))
+			if l:argsStr[l:i] ==# ',' && l:countParen == 0
+				call add(l:argsList, l:arg)
+				let l:arg = ''
+			elseif l:argsStr[l:i] ==# '('
+				let l:countParen += 1
+				let l:arg = l:arg . l:argsStr[l:i]
+			elseif l:argsStr[l:i] ==# ')'
+				let l:countParen -= 1
+				let l:arg = l:arg . l:argsStr[l:i]
 			else
-				let arg = arg . argsStr[i]
+				let l:arg = l:arg . l:argsStr[l:i]
 			endif
 		endfor
-		if arg != '' && countParen == 0
-			call add(argsList, arg)
+		if l:arg !=# '' && l:countParen ==# 0
+			call add(l:argsList, l:arg)
 		endif
 	else
-		let argsList = []
+		let l:argsList = []
 	endif
 
-	let snippet = '('
-	let c = 1
-	for i in argsList
-		if c > 1
-			let snippet = snippet . ", "
+	let l:snippet = '('
+	let l:c = 1
+	for l:i in l:argsList
+		if l:c > 1
+			let l:snippet = l:snippet . ', '
 		endif
 		" strip space
-		let arg = substitute(i, '^\s*\(.\{-}\)\s*$', '\1', '')
-		let snippet = snippet . '${' . c . ":" . arg . '}'
-		let c += 1
+		let l:arg = substitute(l:i, '^\s*\(.\{-}\)\s*$', '\1', '')
+		let l:snippet = l:snippet . '${' . l:c . ':' . l:arg . '}'
+		let l:c += 1
 	endfor
-	let snippet = snippet . ')' . "$0"
-	return UltiSnips#Anon(snippet)
+	let l:snippet = l:snippet . ')' . '$0'
+	return UltiSnips#Anon(l:snippet)
 endfunction

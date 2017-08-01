@@ -1,4 +1,4 @@
-function! dcmkdir#EnsureDirExists()
+function! dcmkdir#EnsureDirExists() abort
     let l:required_dir = expand('%:h')
     if !isdirectory(l:required_dir)
         call s:AskQuit("Parent directory '" . l:required_dir . "' doesn't exist.",
@@ -13,7 +13,7 @@ function! dcmkdir#EnsureDirExists()
     endif
 endfunction
 
-function! s:AskQuit (msg, options, quit_option)
+function! s:AskQuit (msg, options, quit_option) abort
     if confirm(a:msg, a:options) == a:quit_option
         exit
     endif
