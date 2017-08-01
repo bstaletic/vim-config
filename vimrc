@@ -83,6 +83,8 @@ inoremap jk <esc>
 " Open help in a vertical split
 cnoreabbrev h vert h
 
-" Convenient generic buffer mapping
+" Quicker :marks :regs and :buffers commands
 nnoremap <Leader><Leader>b :ls<CR>:b
+nnoremap <Leader><Leader>r :reg<CR>
+nnoremap <Leader><Leader>m :marks<CR>
 " }}}
