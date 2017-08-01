@@ -6,10 +6,6 @@
 	path = pack/bundle/start/surround
 	url = https://github.com/tpope/vim-surround
 	branch = master
-[submodule "pack/bundle/start/signature"]
-	path = pack/bundle/start/signature
-	url = https://github.com/kshenoy/vim-signature
-	branch = master
 [submodule "pack/bundle/start/easymotion"]
 	path = pack/bundle/start/easymotion
 	url = https://github.com/easymotion/vim-easymotion
