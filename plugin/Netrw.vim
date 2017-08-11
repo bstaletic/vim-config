@@ -6,7 +6,7 @@ let g:netrw_config = 1
 
 " Netrw
 " Show files in wide mode
-let g:netrw_liststyle=3
+let g:netrw_liststyle=2
 " Disable the annoying banner at the top
 let g:netrw_banner=0
 " Open the file in a buffer where the cursor was before calling netrw
