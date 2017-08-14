@@ -30,9 +30,6 @@ set backspace=indent,eol,start      "BS past autoindents, line boundaries,
                                     "     and even the start of insertion
 packadd! matchit
 
-set fileformats=unix,mac,dos        "Handle Mac and DOS line-endings
-                                    "but prefer Unix endings
-
 " Status
 set laststatus=2 "Make the buffer always have a status line
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
