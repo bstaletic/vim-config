@@ -43,7 +43,7 @@ set splitright
 set splitbelow
 
 " Folding method
-set foldmethod=indent
+set foldmethod=manual
 
 " Enable line numbers by default
 set relativenumber number
