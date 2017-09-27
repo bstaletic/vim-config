@@ -6,10 +6,6 @@
 	path = pack/bundle/start/surround
 	url = https://github.com/tpope/vim-surround
 	branch = master
-[submodule "pack/bundle/start/easymotion"]
-	path = pack/bundle/start/easymotion
-	url = https://github.com/easymotion/vim-easymotion
-	branch = master
 [submodule "pack/bundle/start/snippets"]
 	path = pack/bundle/start/snippets
 	url = https://github.com/honza/vim-snippets
@@ -41,14 +37,6 @@
 [submodule "pack/bundle/start/auto-pairs"]
 	path = pack/bundle/start/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs
-	branch = master
-[submodule "pack/bundle/start/vimproc"]
-	path = pack/bundle/start/vimproc
-	url = https://github.com/Shougo/vimproc.vim
-	branch = master
-[submodule "pack/bundle/opt/vebugger"]
-	path = pack/bundle/opt/vebugger
-	url = https://github.com/idanarye/vim-vebugger/
 	branch = master
 [submodule "pack/bundle/start/abolish"]
 	path = pack/bundle/start/abolish
