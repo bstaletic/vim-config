@@ -4,15 +4,15 @@ augroup msicAutocmd
 	" Maintain custom highlighting
 	autocmd ColorScheme * call highlight#colorcolumn()
 	autocmd BufNewFile * call dcmkdir#EnsureDirExists()
-	" Strip trailing spaces
-	autocmd BufWritePre * keepjumps %s/\s\+$//e
 	autocmd insertenter * set timeoutlen=200
 	autocmd insertleave * set timeoutlen=700
 augroup END
 " }}}
 
 " Random settings I want on by default {{{
-syntax on " Enable syntax highlighting
+if !exists("g:syntax_on")
+    syntax enable  " Enable syntax highlighting
+endif
 colorscheme distinguished " Set colorscheme
 set history=5000 " Number of history commands remembered
 filetype plugin indent on " Detect filetype and load appropriate file
@@ -28,7 +28,11 @@ set cpoptions+=>
 set path+=**
 set backspace=indent,eol,start      "BS past autoindents, line boundaries,
                                     "     and even the start of insertion
+set nrformats+=alpha " Make <C-a> and <C-x> work on letters too
+set tildeop " Make ~ work like an operator
+
 packadd! matchit
+packadd! termdebug
 
 " Status
 set laststatus=2 "Make the buffer always have a status line
@@ -81,18 +85,19 @@ inoremap jk <esc>
 cnoreabbrev h vert h
 
 " Quicker :marks :regs and :buffers commands
-nnoremap <Leader><Leader>b :ls<CR>:b
-nnoremap <Leader><Leader>r :reg<CR>
-nnoremap <Leader><Leader>m :marks<CR>
+nnoremap <Leader>b :ls<CR>:b
+nnoremap <Leader>r :reg<CR>
+nnoremap <Leader>m :marks<CR>
 
 " Next match blink hightligh
 nnoremap <silent> n n:call slash#blink(3, 100)<CR>
 nnoremap <silent> N N:call slash#blink(3, 100)<CR>
 nnoremap <silent> # #:call slash#blink(3, 100)<CR>
 nnoremap <silent> * *:call slash#blink(3, 100)<CR>
+cnoremap <silent> <expr> <enter> slash#callBlink()
 
 " Set 'keywordprg' depending on filetype
 " by calling SetKeywordprg before calling 'keywordprg' itself
-nnoremap K :call keyword#SetKeywordprg()<CR>K
+nnoremap K :call keyword#SetHelpprg()<CR>K
 
 " }}}

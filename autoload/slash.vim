@@ -8,7 +8,7 @@ function! slash#blink(times, delay)
 
     if !self.clear() && active
       let [line, col] = [line('.'), col('.')]
-      let w:blink_id = matchadd('HLNext', '\c\%#\%('.@/.'\)')
+      let w:blink_id = matchadd('HLNext', '\c\%#'.@/)
     endif
     if active
       call timer_start(self.delay, self.tick)
@@ -26,4 +26,12 @@ function! slash#blink(times, delay)
   call s:blink.clear()
   call s:blink.tick(0)
   return ''
+endfunction
+
+function! slash#callBlink() abort
+	if getcmdtype() == '/' || getcmdtype() == '?'
+		return "\<cr>:call slash#blink(3, 100)\<cr>"
+	else
+		return "\<cr>"
+	endif
 endfunction

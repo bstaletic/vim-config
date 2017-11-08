@@ -22,3 +22,6 @@ let g:neomake_message_sign = { 'text': 'M>', 'texthl': 'NeomakeMessageSign', }
 " Make foreground cyan and background black
 highlight MyInfoMsg ctermfg=cyan ctermbg=black
 let g:neomake_info_sign = {'text': 'I>', 'texthl': 'MyInfoMsg'}
+
+" Neomake gfortran errorformat
+let g:neomake_fortran_gfortran_errorformat='%f:%l:\ %trror:\ %m,%-C\ %#,%-C\ \ %#%.%#,%A%f:%l%[.:]%c:,%Z%\m%\%%(Fatal\ %\)%\?%trror:\ %m,%Z%tarning:\ %m,%-G%.%#'
