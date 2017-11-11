@@ -96,8 +96,4 @@ nnoremap <silent> # #:call slash#blink(3, 100)<CR>
 nnoremap <silent> * *:call slash#blink(3, 100)<CR>
 cnoremap <silent> <expr> <enter> slash#callBlink()
 
-" Set 'keywordprg' depending on filetype
-" by calling SetKeywordprg before calling 'keywordprg' itself
-nnoremap K :call keyword#SetHelpprg()<CR>K
-
 " }}}
