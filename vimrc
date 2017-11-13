@@ -30,6 +30,7 @@ set backspace=indent,eol,start      "BS past autoindents, line boundaries,
                                     "     and even the start of insertion
 set nrformats+=alpha " Make <C-a> and <C-x> work on letters too
 set tildeop " Make ~ work like an operator
+set softtabstop=-1 " Make softtabstop have the same value as shiftwidth
 
 packadd! matchit
 packadd! termdebug
