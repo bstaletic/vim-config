@@ -23,7 +23,6 @@ set incsearch " Move as search pattern is typed
 set exrc " Allow loading of user defined extra config
 set secure " Disable :au, shell and :w from exrc
 set hidden " Hide buffers instead of requiring the user to save and quit
-set signcolumn=yes " Always enable sign column, otherwise it can be distracting
 set cpoptions+=>
 set path+=**
 set backspace=indent,eol,start      "BS past autoindents, line boundaries,
