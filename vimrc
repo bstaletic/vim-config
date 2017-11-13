@@ -13,7 +13,7 @@ augroup END
 if !exists("g:syntax_on")
     syntax enable  " Enable syntax highlighting
 endif
-colorscheme distinguished " Set colorscheme
+colorscheme apprentice " Set colorscheme
 set history=5000 " Number of history commands remembered
 filetype plugin indent on " Detect filetype and load appropriate file
 set hlsearch " Highlight words matching search patterns

@@ -66,3 +66,7 @@
 	path = pack/bundle/start/distinguished
 	url = https://github.com/Lokaltog/vim-distinguished
 	branch = master
+[submodule "pack/bundle/start/apprentice"]
+	path = pack/bundle/start/apprentice
+	url = https://github.com/romainl/apprentice
+	branch = master
