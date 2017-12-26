@@ -7,4 +7,3 @@ let b:custom_vim = 1
 " Convenience options for vim filetype
 setlocal omnifunc=syntaxcomplete#Complete
 setlocal foldmethod=marker
-setlocal keywordprg=:help
