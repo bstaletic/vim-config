@@ -10,3 +10,5 @@ nnoremap <buffer> <Up> <C-y>
 nnoremap <buffer> j <C-e>
 nnoremap <buffer> k <C-y>
 nnoremap <buffer> <Space> <C-f>
+
+setlocal nonumber norelativenumber
