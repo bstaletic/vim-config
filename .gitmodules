@@ -70,3 +70,9 @@
 	path = pack/bundle/start/apprentice
 	url = https://github.com/romainl/apprentice
 	branch = master
+[submodule "pack/bundle/start/vim-qf"]
+	path = pack/bundle/start/vim-qf
+	url = https://github.com/romainl/vim-qf
+[submodule "pack/bundle/start/vim-qlist"]
+	path = pack/bundle/start/vim-qlist
+	url = https://github.com/romainl/vim-qlist
