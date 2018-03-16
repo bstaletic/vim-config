@@ -11,24 +11,21 @@ augroup END
 
 " Random settings I want on by default {{{
 if !exists("g:syntax_on")
-    syntax enable  " Enable syntax highlighting
+	syntax enable
 endif
-colorscheme apprentice " Set colorscheme
-set history=5000 " Number of history commands remembered
-filetype plugin indent on " Detect filetype and load appropriate file
-set hlsearch " Highlight words matching search patterns
+colorscheme apprentice
+set history=5000
+filetype plugin indent on
+set hlsearch
 set ignorecase " Make searches case insensitive
 set smartcase " Unless upper case is typed don't honor case
-set incsearch " Move as search pattern is typed
-set exrc " Allow loading of user defined extra config
+set incsearch
+set exrc
 set secure " Disable :au, shell and :w from exrc
-set hidden " Hide buffers instead of requiring the user to save and quit
+set hidden
 set cpoptions+=>
 set path+=**
-set backspace=indent,eol,start      "BS past autoindents, line boundaries,
-                                    "     and even the start of insertion
-set nrformats+=alpha " Make <C-a> and <C-x> work on letters too
-set tildeop " Make ~ work like an operator
+set backspace=indent,eol,start
 set softtabstop=-1 " Make softtabstop have the same value as shiftwidth
 
 packadd! matchit
@@ -37,6 +34,11 @@ packadd! termdebug
 " Status
 set laststatus=2 "Make the buffer always have a status line
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
+
+" Allow vim to use gui colours in terminal too
+if has('termguicolors')
+	set termguicolors
+endif
 
 " Wildmode - first complete as much as you can, then show a list
 set wildmenu
@@ -54,14 +56,20 @@ set relativenumber number
 
 " Undo files and dirs
 set undofile
-set undodir=~/.vim/.undo
+if isdirectory('$MYVIMRC/.undo')
+	set undodir=$MYVIMRC/.undo
+endif
 " Swap dir
-set directory=~/.vim/.swap
+if isdirectory('$MYVIMRC/.swap')
+	set directory=$MYVIMRC/.swap
+endif
 
-" Use ag as grepprg when available
-if executable('ag')
-    set grepprg=ag\ --nogroup\ --nocolor\ --column
-    set grepformat=%f:%l:%c:%m,%f:%l:%m
+if executable('rg')
+	set grepprg=rg\ --vimgrep
+	set grepformat=%f:%l:%c:%m,%f:%l:%m
+elseif executable('ag')
+	set grepprg=ag\ --vimgrep
+	set grepformat=%f:%l:%c:%m,%f:%l:%m
 endif
 " }}}
 
@@ -73,7 +81,9 @@ nnoremap <F2> :set invrelativenumber invnumber<CR>
 let g:mapleader=' '
 
 " make . work with visually selected lines
-vnoremap . :norm.<CR>
+xnoremap . :norm.<CR>
+xnoremap > >gv
+xnoremap < <gv
 
 " Paste mapping
 set pastetoggle=<F3>
